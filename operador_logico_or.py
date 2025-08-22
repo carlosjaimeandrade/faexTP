@@ -10,7 +10,7 @@
 email = input("Digite o token de acesso: ")
 senha = input("Digite sua senha: ")
 
-if senha == "1234" or email == "carlos.jaime@faex.edu.br":
-    print("Acesso permitido!")
-else:
+if senha != "1234" or email != "carlos.jaime@faex.edu.br":
     print("Acesso negado!")
+else:
+    print("Acesso permitido!")
