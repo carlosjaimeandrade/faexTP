@@ -20,7 +20,7 @@ if 'arroz' not in lista:
 
 lista = []
 texto = ""
-dicionarios = []
+dicionarios = {}
 
 if not lista:
     print("A lista está vazia")
