@@ -1,16 +1,11 @@
-# Para que o bloco do if seja executado QUANDO UTILIZADO OR :
+# Pede ao usuário para digitar um nome de usuário
+usuario = input("Digite seu usuário: ")
 
-# Se a primeira condição for verdadeira, o Python não verifica a segunda, porque já sabe que o resultado será True.
-
-# Se a primeira condição for falsa, aí sim ele verifica a segunda.
-
-# O bloco só não será executado se todas as condições forem falsas.
-
-
-email = input("Digite o token de acesso: ")
-senha = input("Digite sua senha: ")
-
-if senha != "1234" or email != "carlos.jaime@faex.edu.br":
-    print("Acesso negado!")
+# Verifica se o valor digitado é "admin" OU "professor"
+# O operador "or" significa: basta UMA das duas condições ser verdadeira
+if usuario == "admin" or usuario == "professor":
+    # Se o usuário digitou "admin" ou "professor", cai aqui
+    print("Acesso liberado!")
 else:
-    print("Acesso permitido!")
+    # Se não digitou nenhum dos dois, cai aqui
+    print("Acesso negado!")
