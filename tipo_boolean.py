@@ -9,3 +9,9 @@ if chovendo:
 else:
     print("Não está chovendo. Você pode sair sem guarda-chuva.")
 
+
+# Exemplo com comparação que retorna um boolean
+idade = 18
+maior_de_idade = idade >= 18  # True, porque 18 é maior ou igual a 18
+
+print("É maior de idade?", maior_de_idade)
