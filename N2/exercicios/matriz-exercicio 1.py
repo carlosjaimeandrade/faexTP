@@ -1,3 +1,10 @@
+# Crie um programa em Python que solicite a dois usuários informarem três números cada.
+
+# Os números de cada usuário devem ser armazenados em um array (lista).
+
+# Cada usuário terá sua própria posição dentro de uma estrutura principal, onde serão guardados os três números que escolheu
+
+
 #_________________________________________
 # sem uso do append
 num1_user1 = int(input("informe o primeiro numero"))

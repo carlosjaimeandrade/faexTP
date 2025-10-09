@@ -1,3 +1,5 @@
+#Uma matriz é uma estrutura de coleção de elementos organizados em linhas e colunas
+
 #supondo que cada indice representa os numeros escolhido para um sorteio de cada usuário
 matriz = [
     [1, 2, 3], 

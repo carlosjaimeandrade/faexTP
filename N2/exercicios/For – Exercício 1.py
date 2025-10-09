@@ -1,3 +1,13 @@
+# Crie um programa em Python que:
+
+# Solicite ao usuário 4 nomes (crie 4 variáveis).
+
+# Armazene cada nome em uma lista.
+
+# Utilize um laço for para exibir todos os nomes armazenados
+
+
+
 # Solicita ao usuário que digite 4 nomes e armazena cada um em uma variável
 nome1 = input("Digite o 1º nome: ")
 nome2 = input("Digite o 2º nome: ")
