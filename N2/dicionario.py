@@ -37,6 +37,11 @@ print(usuarios[0]['nome'])
 #posso utilizar o for para poder pecorrer todos os indices
 #index representa cada index do array, só é possivel por causa do enumerate utilizando ele o 
 #python retona o index para cada valor, junto com a lista de fato que vamos percorrer
+#exemplo 
+#[
+#    (0, {'nome': 'Ana Silva', 'idade': 28}),
+#    (1, {'nome': 'Carlos', 'idade': 38})
+#]
 for index, usuario in enumerate(usuarios):
     print(usuario['nome'])
     #adicionando novo dado a todo momento que percorre
