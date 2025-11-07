@@ -10,5 +10,5 @@
 
 try:
     num = float(input('Informe um número: '))
-except Exception as e:
+except Exception as e: #Não é necessario o Exception as e ele serve para capturar o erro lançado pelo python
     print('Não é permitido digitar letras, apenas números.')
