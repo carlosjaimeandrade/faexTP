@@ -19,7 +19,9 @@ def somar(a, b):
     return resultado
 #como chamar a função
 soma = somar(1,3)
+soma2 = somar(1,3)
 print(soma)
+print(soma2)
 
 #Exemplo junto com try e entrada de dados
 def ler_numero():
